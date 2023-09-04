@@ -1,0 +1,22 @@
+1.¿Por qué un lenguaje de programación sólo puede utilizarse en algunos 
+     sistemas operativos y en otros no?. 
+     Los lenguajes de programación pueden estar restringidos a ciertos sistemas 
+     operativos debido a diferencias en la implementación de hardware, las bibliotecas disponibles y las herramientas de desarrollo en cada plataforma.
+
+2. ¿Qué tipo de máquina virtual soporta virtualBox?.
+
+VirtualBox es una plataforma de virtualización que admite una amplia variedad 
+de tipos de máquinas virtuales, incluyendo sistemas de 32 bits y 64 bits, sistemas operativos Windows, Linux, macOS (en un host macOS), y otros sistemas menos comunes. También es posible crear máquinas virtuales de 32 bits en sistemas de 64 bits. Esto la hace versátil y adecuada para una variedad de casos de uso.
+
+3. ¿Qué función cumple el hypervisor en la virtualización?
+
+El hypervisor, o VMM (Virtual Machine Monitor), es un componente clave 
+en la virtualización. Su función principal es crear y gestionar máquinas virtuales (VM) 
+en un servidor físico. Esto incluye asignar recursos, proporcionar aislamiento, permitir la migración de VM y asegurar que los sistemas operativos invitados funcionen como si estuvieran en hardware real. El hypervisor es esencial para la eficiencia y la gestión de recursos en entornos de virtualización
+
+4. Si tengo más de una máquina virtual instalada, y una se rompe, 
+¿esto afecta a las demás? ¿por qué?
+
+En condiciones normales, el fallo o la corrupción de una máquina virtual (VM) 
+no afecta a otras VMs en el mismo entorno virtualizado. Las VMs se ejecutan de manera aislada. Sin embargo, problemas de recursos compartidos, vulnerabilidades del hipervisor, errores humanos o problemas en la configuración pueden tener un impacto indirecto en otras VMs. 
+
